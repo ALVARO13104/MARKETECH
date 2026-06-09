@@ -1,0 +1,199 @@
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#f5f5f5;
+    color:#222;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar{
+    background:#0d6efd !important;
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-link{
+    color:white !important;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#ffd43b !important;
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+    background:linear-gradient(135deg,#0d6efd,#4dabf7);
+    color:white;
+    padding:90px 0;
+}
+
+.hero h1{
+    font-size:55px;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:22px;
+    margin-top:20px;
+}
+
+.hero img{
+    width:100%;
+    max-width:450px;
+}
+
+/* ===========================
+   BOTONES
+=========================== */
+
+.btn{
+    border-radius:12px;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+/* ===========================
+   CARDS
+=========================== */
+
+.card{
+    border:none;
+    border-radius:18px;
+    overflow:hidden;
+    transition:.35s;
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+        0px 15px 35px rgba(0,0,0,.18);
+
+}
+
+.card img{
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.card-title{
+
+    font-weight:bold;
+
+}
+
+.badge{
+
+    width:fit-content;
+
+}
+
+/* ===========================
+   TITULOS
+=========================== */
+
+h1,h2,h3{
+
+    font-weight:bold;
+
+}
+
+/* ===========================
+   FORMULARIOS
+=========================== */
+
+input,
+textarea,
+select{
+
+    border-radius:10px !important;
+
+}
+
+.card-body{
+
+    padding:30px;
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+
+    margin-top:70px;
+
+    background:#212529;
+
+    color:white;
+
+    padding:40px;
+
+}
+
+footer h5{
+
+    font-weight:bold;
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:768px){
+
+.hero{
+
+padding:60px 0;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:36px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+.card{
+
+margin-bottom:25px;
+
+}
+
+}

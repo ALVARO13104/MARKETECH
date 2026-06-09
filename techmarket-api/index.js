@@ -3,7 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import categoryRoutes from "./routes/category.routes.js";
 import pool from "./database/connection.js";
-import favoriteRoutes from "./routes/favorite.routes.js";
+import favoriteRoutes from "./routes/favorites.routes.js";
 import authRoutes from "./routes/auth.routes.js";
 import publicationRoutes from "./routes/publication.routes.js";
 
